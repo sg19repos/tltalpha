@@ -1,4 +1,40 @@
 .welcome-card img {
-  max-height: 35vh;
-  overflow: hidden;
+    max-height: 35vh;
+    overflow: hidden;
+}
+
+* {
+    font-family: Lato !important;
+}
+
+ion-item > .item-inner {
+    border-bottom: none;
+}
+
+ion-item {
+    --inner-border-width: 0px;
+}
+ion-icon {
+    color: rgba(var(--ion-text-color-rgb, 0, 102, 0), 0.54);
+}
+ion-title {
+    font-family: Kanit !important;
+    text-transform: lowercase;
+    font-size: 35px;
+}
+.sidebar-logo {
+    margin: 0% auto 0% 9%;
+    width: 90px;
+}
+.header-md:after {
+    /* height: 1px; */
+}
+.page-content {
+    height: 100%;
+    overflow: auto;
+}
+.signin-switch {
+    height: 30px;
+    background-color: #fff;
+    color: #389242;
 }

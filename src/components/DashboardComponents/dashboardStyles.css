@@ -1,0 +1,55 @@
+.profile-top-section {
+    width: 100%;
+    height: 20%;
+}
+.profile-name {
+    width: 60%;
+    float: left;
+    text-align: left;
+}
+.profile-name span {
+    color: #aaa;
+}
+.profile-pic {
+    width: 40%;
+    float: left;
+    margin: 5% auto auto auto;
+}
+.image-circle-background {
+    width: 60px;
+    background-color: aliceblue;
+    height: 60px;
+    padding: 5%;
+    border-radius: 50%;
+    color: #389242;
+    float: right;
+}
+
+.image-circle-background h5 {
+    margin: 22%;
+    font-size: 20px;
+}
+
+.edit-profile {
+    float: left;
+    margin: 2% auto auto -5%;
+    text-decoration: none;
+    width: 50%;
+}
+
+.profile-bottom-section .MuiTable-root {
+    min-width: 100%;
+}
+.profile-bottom-section th {
+    color: #aaa;
+    border-bottom: none;
+}
+
+.profile-bottom-section td {
+    border-bottom: none;
+}
+
+.edit-profile .MuiSvgIcon-root {
+    font-size: 1rem;
+    margin: 0% 5% -2% 5%;
+}

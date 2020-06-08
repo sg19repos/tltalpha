@@ -1,0 +1,52 @@
+.MuiInputLabel-outlined.MuiInputLabel-shrink {
+    transform: translate(14px, -16px) scale(0.75) !important;
+}
+
+.MuiInputLabel-outlined.MuiInputLabel-marginDense {
+    transform: translate(14px, -18px) scale(0.875);
+}
+
+.registration-input {
+    width: 90% !important;
+}
+
+.registration-input label {
+    font-size: 10px;
+}
+.registration-input label.Mui-focused {
+    font-size: 10px;
+    color: rgba(0, 0, 0, 0.54) !important;
+}
+
+.registration-input .MuiInput-underline:after {
+    font-size: 10px;
+    border-bottom: 1px solid #389242 !important;
+}
+.registration-main {
+    border: 1px solid #389242;
+    border-radius: 3%;
+    margin: auto 5% 15% 5%;
+    padding: 5% 5% 10% 5%;
+}
+.registration-title {
+    font-weight: 700;
+}
+
+required:after {
+    content: " *";
+}
+
+.registration-requied-fields {
+    color: #aaa;
+    margin-left: 5%;
+}
+
+.register-green-checkbox .MuiFormControlLabel-label {
+    color: #aaa;
+    font-size: 12px !important;
+}
+
+button.register-btn {
+    background-color: #389242;
+    color: #fff;
+}

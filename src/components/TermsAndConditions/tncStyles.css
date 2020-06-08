@@ -1,0 +1,32 @@
+.tnc-main {
+    height: 100%;
+    width: 100%;
+    overflow: auto;
+}
+
+.tnc-main .aboutUs_inner_component_title {
+    top: 0%;
+    text-transform: none;
+    text-align: left;
+    margin-left: auto;
+    position: relative;
+    padding: 0%;
+}
+
+.tnc-main p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+}
+
+.terms-link {
+    margin: 5% 2% auto 5%;
+    color: #666;
+}
+
+.privacy-policy-link {
+    margin: 5% 2% auto 3%;
+    color: #666;
+}

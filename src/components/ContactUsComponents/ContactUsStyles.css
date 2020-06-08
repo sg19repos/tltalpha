@@ -1,0 +1,42 @@
+.contact-us-title {
+    text-align: left;
+    padding-bottom: 1rem !important;
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+p {
+    font-weight: 100;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+}
+
+.float-left {
+    float: left !important;
+}
+
+a.float-left {
+    font-size: 17px;
+    font-family: gothamBold;
+    color: #000 !important;
+    text-decoration: none;
+    margin: 0 0 0 15px;
+    font-weight: 700;
+}
+svg:not(:root).svg-inline--fa {
+    overflow: visible;
+}
+.svg-inline--fa.fa-w-16 {
+    width: 1em;
+}
+.svg-inline--fa {
+    display: inline-block;
+    font-size: inherit;
+    height: 1em;
+    overflow: visible;
+    vertical-align: -0.125em;
+}

@@ -1,5 +1,7 @@
 {
   "name": "tltalpha",
-  "integrations": {},
+  "integrations": {
+    "capacitor": {}
+  },
   "type": "react"
 }

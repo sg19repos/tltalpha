@@ -1,0 +1,149 @@
+.hiw-section-label {
+    text-transform: uppercase;
+    font-size: 15px;
+    color: #fff;
+    background: #389242;
+    padding: 5px 0;
+    text-align: center;
+    margin-bottom: 30px;
+    font-weight: 700;
+}
+.hiw-section-description h4 {
+    font-weight: 500;
+    line-height: 1.2;
+    color: #212529;
+    text-align: left;
+    font-weight: 700;
+}
+.hiw-section-description p {
+    font-weight: 100;
+}
+.hiw-energylabel {
+    width: 100%;
+    height: 100%;
+}
+.hiw-energylabel-section1,
+.hiw-energylabel-section2 {
+    width: 45%;
+    margin: 2%;
+    height: auto;
+    float: left;
+}
+.hiw-energylabel-section3 {
+    width: 90%;
+    margin: 5% 2% 2% 2%;
+    float: left;
+}
+
+.eligibility-criteria-main {
+    display: inline-block;
+}
+.eligibility table {
+    border-collapse: separate;
+    border-spacing: 10px;
+}
+.table {
+    width: 100%;
+    margin-bottom: 1rem;
+    color: #212529;
+}
+.eligibility table {
+    border-collapse: separate;
+    border-spacing: 10px;
+}
+.eligibility table th {
+    background: rgb(167, 202, 170);
+    border-top: 0px !important;
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+    vertical-align: middle;
+    padding: 10px;
+    font-size: 12px;
+}
+.eligibility table td {
+    background: rgb(167, 202, 170, 0.3);
+    border-top: 0px;
+    text-align: center;
+    color: #6b6b6b;
+    vertical-align: middle;
+    padding: 10px;
+    font-size: 12px;
+}
+
+.listing div {
+    clear: both;
+    margin-bottom: 10px;
+    float: left;
+}
+.listing span {
+    background: rgb(167, 202, 170, 0.3);
+    text-align: center;
+    font-weight: bold;
+    display: inline-block;
+    width: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-right: 10px;
+    display: block;
+    float: left;
+}
+.listing p {
+    width: calc(100% - 60px);
+    float: left;
+    margin: 1px auto 5px auto;
+}
+.pip-main {
+    width: 100%;
+    float: left;
+}
+.pip-image-grid {
+    width: 90%;
+    height: 200px;
+}
+.pip-image {
+    width: 40%;
+    height: 10%;
+    float: left;
+    margin: 5%;
+    display: table-cell;
+}
+
+.financial-partner-main {
+    width: 100%;
+    float: left;
+}
+.financial-partner-image {
+    width: 90%;
+    margin: 5%;
+    float: left;
+}
+
+.hiwscrollBar {
+    /* padding: 0% 4%; */
+    position: relative;
+    overflow: auto;
+    height: 500px;
+    /* Commented for header image removal changes */
+    /* margin-top: 10%; */
+    margin-top: 0%;
+}
+
+.hiwscrollBar::-webkit-scrollbar-thumb {
+    background: #389242;
+    border-radius: 10px;
+}
+
+.hiwscrollBar::-webkit-scrollbar {
+    /* width: 2px; */
+}
+.hiwscrollBar::-webkit-scrollbar-track {
+    /* background: #f1f1f1; */
+}
+
+.hiwscrollBar p {
+    font-weight: 100;
+    text-align: left;
+    line-height: 1.5;
+    color: #212529;
+}

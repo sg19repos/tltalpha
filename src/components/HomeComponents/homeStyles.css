@@ -1,0 +1,146 @@
+.home-main {
+    width: 100%;
+    height: auto;
+}
+.home-image-row {
+    width: 100%;
+    height: 90%;
+    margin: 5% 0% 5% 0%;
+}
+.home-image-col {
+    width: auto;
+    height: 100%;
+    position: relative;
+}
+.home-img.section1 {
+    background-image: url(/assets/app.jpg);
+    background-position: center;
+    background-color: #fcce07;
+    background-size: auto;
+    height: 507px;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.home-img h4 {
+    text-transform: uppercase;
+    padding-top: 241px;
+    color: white;
+}
+
+.home-img.section1 button {
+    position: absolute;
+    top: 0;
+    text-transform: uppercase;
+    color: white;
+    background: #f7941e;
+    border: 0;
+    padding: 10px;
+    font-family: gothamBold;
+    margin: 330px 0 0 -83px;
+}
+
+.home-img.section2 {
+    background-image: url(/assets/coupon.jpg);
+    background-position: center;
+    background-color: #fcce07;
+    background-size: auto;
+    height: 507px;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.home-img.section2 button,
+.home-img.section3 button {
+    position: absolute;
+    top: 0;
+    text-transform: uppercase;
+    color: white;
+    background: #f7941e;
+    border: 0;
+    padding: 10px;
+    font-family: gothamBold;
+    margin: 330px 0 0 -83px;
+    margin-left: -74px;
+}
+
+.home-img.section3 {
+    background-image: url(/assets/my-account.jpg);
+    background-position: center;
+    background-color: #fcce07;
+    background-size: auto;
+    height: 507px;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.supporter-section {
+    height: auto;
+    width: 100%;
+    padding: 50px 0 20px 0;
+}
+
+.official-supporter,
+.financial-partner,
+.retailers {
+    width: auto;
+    position: relative;
+    border: 1px solid #389242;
+    height: 240px;
+    text-align: center;
+    line-height: 240px;
+    margin-top: 10%;
+}
+.official-supporter-title,
+.financial-partner-title,
+.retailers-title {
+    border: 1px solid #389242;
+    height: 240px;
+    text-align: center;
+    line-height: 240px;
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.retailers-title,
+.retailers {
+    height: auto;
+    line-height: 150px;
+}
+.official-supporter-title h4,
+.financial-partner-title h4,
+.retailers-title h4 {
+    position: absolute;
+    top: -12px;
+    text-transform: uppercase;
+    background: white;
+    line-height: 1.3rem;
+    padding: 0 5px;
+    font-size: 25px;
+    width: 301px;
+    margin: 0 0 0 -150px;
+    left: 50%;
+    font-weight: 700;
+}
+.retailers-title h4 {
+    width: 138px;
+    left: 74%;
+}
+
+.official-supporter img,
+.financial-partner img,
+.retailers img {
+    vertical-align: middle;
+    border-style: none;
+}
+
+.official-supporter-title span,
+.financial-partner span,
+.retailers span {
+    font-size: 17px;
+    text-align: center;
+}
+ion-header ion-toolbar:first-child {
+    border-bottom: 1px solid #ddd;
+}

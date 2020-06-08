@@ -1,0 +1,84 @@
+.aboutUs_inner_component_title {
+    text-transform: uppercase;
+    font-weight: bolder;
+    text-align: left;
+    margin-left: 9px;
+    position: absolute;
+    top: -6%;
+    background-color: #fff;
+    line-height: 1.3rem;
+    width: auto;
+    padding: 0% 3%;
+    font-size: 14px;
+}
+
+.outerBorderDiv {
+    border: 2px solid #389242;
+    padding: 0.5rem !important;
+    height: auto;
+    border-top: none;
+    border-bottom: none;
+    margin: 12% auto auto 1%;
+    position: relative;
+}
+.outerBorderDiv:first-of-type {
+    border-top: 2px solid #389242;
+}
+.outerBorderDiv:last-of-type {
+    border-bottom: 2px solid #389242;
+}
+
+.outerBorderDiv img {
+    height: 120px;
+    margin: 5% 5% 2% 5%;
+    max-width: 90%;
+}
+
+.scrollBar:not(:first-child) {
+    padding: 0% 4%;
+    position: relative;
+    overflow: auto;
+    height: 300px;
+    margin-top: 1%;
+}
+.scrollBar.second {
+    margin-top: 10%;
+}
+
+.scrollBar::-webkit-scrollbar-thumb {
+    background: #389242;
+    border-radius: 10px;
+}
+
+.scrollBar::-webkit-scrollbar {
+    width: 2px;
+}
+.scrollBar::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+.scrollBar p {
+    font-weight: 100;
+    text-align: left;
+    line-height: 1.5;
+    color: #212529;
+}
+
+ul {
+    list-style: circle;
+    margin: 10px 0px 10px 0px;
+    text-align: justify;
+    font-size: 14px;
+    padding-inline-start: inherit;
+}
+
+.outerBorderDiv:before,
+.outerBorderDiv:before {
+    content: "";
+    background: url("leaf.png") no-repeat;
+    width: 22px;
+    height: 36px;
+    position: absolute;
+    left: -4px;
+    top: -22px;
+}

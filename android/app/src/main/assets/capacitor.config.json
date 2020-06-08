@@ -1,0 +1,7 @@
+{
+    "appId": "com.example.app",
+    "appName": "tltalpha",
+    "bundledWebRuntime": false,
+    "npmClient": "npm",
+    "webDir": "build"
+}
